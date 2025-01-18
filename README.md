@@ -95,4 +95,3 @@ Créez une branche pour vos modifications.
 Soumettez une pull request pour révision.
 Licence
 Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus de détails.
-

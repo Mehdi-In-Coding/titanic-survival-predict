@@ -59,7 +59,7 @@ python src/model_evaluation.py
 
 ---
 
-### **Résultats Clés**
+## **Résultats Clés**
 
 | **Model**             | **Accuracy** | **F1-Score** |
 |-----------------------|--------------|--------------|
@@ -71,7 +71,7 @@ python src/model_evaluation.py
 
 ---
 
-### **IA Explicable (XAI)**
+## **IA Explicable (XAI)**
 
 Techniques utilisées pour interpréter les modèles :
 
@@ -79,23 +79,23 @@ Techniques utilisées pour interpréter les modèles :
 - Importances des caractéristiques : Mise en évidence des variables les plus significatives.
 - Permutation Importance : Évaluation de la pertinence des variables par permutation.
 
-### **Pipeline CI/CD**
+## **Pipeline CI/CD**
 Le dépôt intègre des workflows GitHub Actions pour :
 - Linting : Vérifie la qualité du code avec Flake8 et Black.
 - Tests : Exécute les tests unitaires via Pytest.
 - Simulation de déploiement : Containerisation optionnelle avec Docker.
   
-### **Améliorations Futures**
+## **Améliorations Futures**
 - Intégration de méthodes avancées d’ensembles pour de meilleures performances.
 - Enrichissement des caractéristiques avec des données externes.
 - Déploiement du modèle en tant qu’API avec Flask ou FastAPI.
 
-### **Comment Contribuer**
+## **Comment Contribuer**
 Contributions bienvenues ! Pour participer :
 
 - Forkez le dépôt.
 - Créez une branche pour vos modifications.
 - Soumettez une pull request pour révision.
   
-### **Licence**
-Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus de détails.
+## **Licence**
+Ce projet est sous licence MIT. Consultez le fichier [LICENSE](LICENSE)  pour plus de détails.

@@ -25,7 +25,7 @@ Ce projet respecte les exigences académiques de l'IUT Paris Cité, avec un acce
 
 ---
 
-## **Instructions d’Installation**
+### **Instructions d’Installation**
 
 ### **Étape 1 : Cloner le Dépôt**
 ```bash
@@ -59,7 +59,7 @@ python src/model_evaluation.py
 
 ---
 
-## **Résultats Clés**
+### **Résultats Clés**
 
 | **Model**             | **Accuracy** | **F1-Score** |
 |-----------------------|--------------|--------------|
@@ -71,27 +71,31 @@ python src/model_evaluation.py
 
 ---
 
-IA Explicable (XAI)
+### **IA Explicable (XAI)**
+
 Techniques utilisées pour interpréter les modèles :
 
-Valeurs SHAP : Analyse de l’impact des caractéristiques sur les prédictions.
-Importances des caractéristiques : Mise en évidence des variables les plus significatives.
-Permutation Importance : Évaluation de la pertinence des variables par permutation.
-Pipeline CI/CD
-Le dépôt intègre des workflows GitHub Actions pour :
+- Valeurs SHAP : Analyse de l’impact des caractéristiques sur les prédictions.
+- Importances des caractéristiques : Mise en évidence des variables les plus significatives.
+- Permutation Importance : Évaluation de la pertinence des variables par permutation.
 
-Linting : Vérifie la qualité du code avec Flake8 et Black.
-Tests : Exécute les tests unitaires via Pytest.
-Simulation de déploiement : Containerisation optionnelle avec Docker.
-Améliorations Futures
-Intégration de méthodes avancées d’ensembles pour de meilleures performances.
-Enrichissement des caractéristiques avec des données externes.
-Déploiement du modèle en tant qu’API avec Flask ou FastAPI.
-Comment Contribuer
+### **Pipeline CI/CD**
+Le dépôt intègre des workflows GitHub Actions pour :
+- Linting : Vérifie la qualité du code avec Flake8 et Black.
+- Tests : Exécute les tests unitaires via Pytest.
+- Simulation de déploiement : Containerisation optionnelle avec Docker.
+  
+### **Améliorations Futures**
+- Intégration de méthodes avancées d’ensembles pour de meilleures performances.
+- Enrichissement des caractéristiques avec des données externes.
+- Déploiement du modèle en tant qu’API avec Flask ou FastAPI.
+
+### **Comment Contribuer**
 Contributions bienvenues ! Pour participer :
 
-Forkez le dépôt.
-Créez une branche pour vos modifications.
-Soumettez une pull request pour révision.
-Licence
+- Forkez le dépôt.
+- Créez une branche pour vos modifications.
+- Soumettez une pull request pour révision.
+  
+### **Licence**
 Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus de détails.

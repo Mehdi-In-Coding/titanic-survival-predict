@@ -1,3 +1,6 @@
+import sys
+sys.path.append('/content/titanic-survival-predict/src')
+
 import pandas as pd
 from src.data_preprocessing import preprocess_data
 

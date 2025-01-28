@@ -63,11 +63,11 @@ python src/model_evaluation.py
 
 | **Model**             | **Accuracy** | **F1-Score** |
 |-----------------------|--------------|--------------|
-| Logistic Regression   | 00.00%      | 0.00        |
-| RandomForest          | 00.00%      | 0.00         |
-| MultiLayer Perceptron | 00.00%      | 0.00        |
-| XGBoost               | TBD         | TBD          |
-| **Stacked Model**     | **00.00%**  | **0.00**     |
+| Logistic Regression   | 80.45%      | 0.80        |
+| RandomForest          | 82.68%      | 0.83         |
+| MultiLayer Perceptron | 82.12%      | 0.82        |
+| XGBoost               | 82.12%      | 0.82          |
+| **Stacked Model**     | **81.01%%**  | **0.80**     |
 
 ---
 

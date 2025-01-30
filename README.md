@@ -98,7 +98,7 @@ Contributions bienvenues ! Pour participer :
 - Soumettez une pull request pour révision.
 
 ## **Modèle d’apprentissage machine (ML) pour prédire les chances de survie.**
-
+79.186 %
   
 ## **Licence**
 Ce projet est sous licence MIT. Consultez le fichier [LICENSE](LICENSE)  pour plus de détails.

@@ -9,3 +9,5 @@ joblib
 pytest
 poetry
 conda
+flake8
+black

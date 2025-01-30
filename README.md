@@ -96,6 +96,9 @@ Contributions bienvenues ! Pour participer :
 - Forkez le dépôt.
 - Créez une branche pour vos modifications.
 - Soumettez une pull request pour révision.
+
+## **Modèle d’apprentissage machine (ML) pour prédire les chances de survie.**
+
   
 ## **Licence**
 Ce projet est sous licence MIT. Consultez le fichier [LICENSE](LICENSE)  pour plus de détails.

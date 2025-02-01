@@ -1,0 +1,49 @@
+titanic-survival-predict/
+│
+├── .github/
+│   ├── workflows/
+│       └── ci.yml                  # Pipeline CI/CD avec GitHub Actions
+│
+├── docs/                            # Documentation
+│   ├── README.md                    # Explication du projet
+│   ├── INSTALLATION.md               # Instructions pour installer et exécuter le projet
+│   ├── CONTRIBUTING.md               # Guide de contribution pour les membres
+│   ├── projet_final.pdf               # Rapport détaillé pour la restitution
+│
+├── models/                           # Modèles sauvegardés
+│   ├── logistic_regression_model.pkl
+│   ├── random_forest_model.pkl
+│   ├── xgboost_model.pkl
+│   ├── stacking_meta_model.pkl
+│   ├── submission.csv
+│
+├── src/                              # Scripts du projet
+│   ├── __init__.py                   # Initialisation du package
+│   ├── data_loading.py         	   # 1) Prétraitement des données
+│   ├── data_preprocessing.py         # 2) process des données
+│   ├── eda_analysis.py               # Analyse exploratoire (EDA)
+│   ├── model_building.py             # Entraînement des modèles
+│   ├── comparaison_modeles.py        # Comparaison des modèles
+│   ├── main.py                       # Script principal
+│
+├── tests/                            # Tests unitaires
+│   ├── load_models.py                # Chargement des modèles
+│   ├── optimisation.py               # Optimisation des hyperparamètres
+│   ├── model_stacking.py             # Stacking de modèles
+│   ├── xai.py                        # IA explicable
+│   ├── test_data_preprocessing.py    # Tests pour le prétraitement
+│   ├── test_model_training.py        # Tests pour l'entraînement des modèles
+│   ├── test_model_evaluation.py      # Tests pour l'évaluation des modèles
+│
+├── LICENSE                           # Licence du projet
+├── Proba_de_survie.png               # Image des probabilités de survie
+├── README.md                         # Explication du projet
+├── gender_submission.csv             # Exemple de soumission Kaggle
+├── gender_submission_clean.csv       # Exemple de soumission propre
+├── projet.ipynb                      # Notebook original
+├── projet.py                         # Script équivalent au notebook
+├── requirements.txt                   # Dépendances du projet
+├── test.csv                           # Jeu de test brut
+├── test_cleaned.csv                   # Jeu de test nettoyé
+├── train.csv                          # Jeu d'entraînement brut
+└── train_cleaned.csv                   # Jeu d'entraînement nettoyé
